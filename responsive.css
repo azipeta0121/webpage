@@ -1,0 +1,98 @@
+/*タブレット向けレイアウト*/
+
+@media(max-width:768px){
+    header{
+        background-image: url(bilding.jpg);
+        background-size: cover;
+        height:500px ;
+     
+    }
+
+    .bom-box {
+        background-color: #ffac1e;
+        height: 350px;
+    }    
+
+    .swittchs h1 {
+        font-weight: normal;
+        padding: 25px 0;
+        font-size: 100%;
+    }
+
+    .swittch {
+        background-color: rgb(85, 85, 85);
+        box-shadow: 0 25px rgb(39, 39, 39);
+        height: 180px;
+        width: 28%;
+
+    }
+
+    footer{
+        right:5%;
+    }
+
+
+
+
+
+}
+
+/*スマホ向けレイアウト*/
+
+
+
+
+
+
+@media(max-width:414px){
+
+    header {
+        background-image: url(bilding.jpg);
+        background-size: cover;
+        height: 350px;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    .everybody {
+        background-size: cover;
+        background-image: url(everybody.gif);
+        top: 40px;
+        /* background-position-y: 20%; */
+        /* background-repeat-y: no-repeat; */
+        height: 354px;
+    }
+    .bom-box {
+        background-color:#ffac1e;
+        height: 250px;
+    }
+    .swittchs h1 {
+        font-weight: normal;
+        padding: 20px 0;
+        font-size: 100%;
+    }
+
+    .swittch {
+        background-color: rgb(85, 85, 85);
+        box-shadow: 0 25px rgb(39, 39, 39);
+        height: 180px;
+        width: 100%;
+        margin: 0 20px 20px;
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        right: 4%;
+        pointer-events: none;
+    }
+
+}
+
+
+
+
+
+

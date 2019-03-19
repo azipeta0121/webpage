@@ -1,0 +1,158 @@
+
+*{
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+
+
+header{
+    background-image: url(bilding.jpg);
+    background-size: cover;
+    height: 900px;
+    /* width: 100%; */
+}
+
+header h1{
+    z-index:10;
+    display:inline-block;
+    color:white;
+    background-color:red;
+    padding:5px 20px;
+    margin:10px 0;
+    position:fixed;
+}
+
+.everybody{
+    /* background-size: cover; */
+    background-image: url(everybody.gif);
+    /* top: 40px; */
+    background-position-y: 100%;
+    background-repeat-y: no-repeat;
+    height: 100%
+}
+
+
+
+.bom-box{
+    background-color:#ffac1e;
+    height:700px;
+
+}
+
+
+.action {
+    top: -50px;
+    left: 15%;
+    height: 350px;
+    position: relative;
+}
+
+.image{
+    padding-top:80px;
+    display:inline-block;
+    position: absolute;
+    inline-size: 50%;
+}
+
+.fighter{
+    top:7%;
+    left:30%;
+}
+
+.swittchs{
+    height:500px;
+    width:100%;
+    text-align: center;
+}
+
+.swittchs h1{
+    font-weight:normal;
+    padding:50px 0;
+}
+
+
+
+
+.swittch {
+    background-color: rgb(85, 85, 85);
+    box-shadow: 0 25px rgb(39, 39, 39);
+    height: 200px;
+    width: 200px;
+    margin: 0 0px;
+    display: inline-block;
+    
+}
+
+.btn {
+    color: white;
+    padding: 50px 50px;
+    border-radius: 100%;
+    width: 80%;
+    margin:0 auto;
+    display:block;
+    text-align: center;
+  }
+
+.btn:hover{
+   color: white;
+   font-weight:bolder;
+
+}
+
+
+.btn:active {
+    position:relative;
+    top: 20px;
+    box-shadow: none;
+}
+
+
+.blue{
+    background-color: blue;
+    box-shadow:0 20px rgb(0, 0, 122);
+}
+
+.yellow{
+    background-color:yellow;
+    box-shadow:0 20px rgb(97, 104, 0)
+}
+
+.red{
+    background-color:red;
+    box-shadow:0 20px rgb(122, 0, 0)
+}
+
+
+footer{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    pointer-events: none;
+}
+
+.image-wrapper{
+   text-align: center;
+}
+
+
+.image-wrapper img{
+    width:30%;
+}
+
+
+
+.right{
+    float: right; 
+}
+
+.left{
+    float:left; 
+}
+
+
+
